@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    height: 20%;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+#one_time_use {
+    color: gainsboro;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+#one_time_use:hover {
+    transition: 1000ms;
+    color: violet;
+}
+
+
+#temp {
+    text-decoration: none;
+    color: palegreen;
+    font-family: monospace;
+    font-size: 1.3rem;
+}
+
+#temp:hover {
+    transition: 1000ms;
+    color: aqua;
+}
+
+#alpha {
+    color: black;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+#kappa {
+    color: azure;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
