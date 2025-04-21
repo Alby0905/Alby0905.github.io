@@ -30,15 +30,15 @@ body {
 
 #temp {
     text-decoration: none;
-    color: palegreen;
     font-family: monospace;
-    font-size: 1.3rem;
+    font-size: 3rem;
 }
 
-#temp:hover {
-    transition: 1000ms;
-    color: aqua;
+.rainbow {
+    animation: rainbow 2.5s linear;
+    animation-iteration-count: infinite;
 }
+
 
 #alpha {
     color: black;
@@ -50,4 +50,22 @@ body {
     color: azure;
     font-family: monospace;
     font-size: 1.5rem;
+}
+
+.gamma {
+    background-color: coral;
+    border-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+    width: 30%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+#iota {
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 2rem;
+    padding: 1rem;
 }
