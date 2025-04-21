@@ -9,34 +9,26 @@ body {
 }
 
 .main {
-    width: 100%;
+    width: 50%;
     height: 20%;
+    margin: auto;
     display: grid;
     align-content: center;
     text-align: center;
-}
-
-#one_time_use {
-    color: gainsboro;
-    font-family: monospace;
-    font-size: 2rem;
-}
-
-#one_time_use:hover {
-    transition: 1000ms;
-    color: violet;
 }
 
 
 #temp {
     text-decoration: none;
     font-family: monospace;
+    color: chartreuse;
     font-size: 3rem;
 }
 
-.rainbow {
-    animation: rainbow 2.5s linear;
-    animation-iteration-count: infinite;
+#temp:hover {
+    color: greenyellow;
+    font-size: 3.5rem;
+    transition: 750ms;
 }
 
 
@@ -54,13 +46,17 @@ body {
 
 .gamma {
     background-color: coral;
-    border-color: black;
+    border: 0px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     
-    width: 30%;
+    width: 55%;
     height: 50%;
+    display: grid;
+    align-content: center;
+    margin: auto;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 #iota {
